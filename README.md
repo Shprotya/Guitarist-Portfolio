@@ -1,10 +1,12 @@
-#Guitarist Portfolio Website
+**Guitarist Portfolio Website**
+
 A single-page portfolio website for a guitar teacher, featuring a modern design with gradient accents and floating decorative elements.
 
-#About This Project
+**About This Project**
+
 This was created in 2023 as part of my web development learning journey. I know it could have been done better, but it was an important step in understanding HTML/CSS fundamentals—particularly experimenting with absolute positioning and floating elements.
 
-Features
+**Features**
 
 -Responsive hero section with layered background elements
 - Statistics showcase (years teaching, hours, students, reviews)
@@ -12,7 +14,7 @@ Features
 - Social media integration
 - Custom gradient circular decorations
 
-Technologies Used
+**Technologies Used**
 
 - HTML5
 - CSS3
@@ -20,7 +22,7 @@ Technologies Used
 - Google Fonts (Roboto)
 - Normalize.css
 
-What I Learned
+**What I Learned**
 
 - Working with absolute positioning
 - Creating layered visual effects with CSS
