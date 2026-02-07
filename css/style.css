@@ -1,0 +1,474 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    height: 650px;
+    background-color: #F4F2F2;
+}
+
+.section-header, .section-header__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-header img {
+    height: 85px;
+    width: 165px;
+    margin-left: 100px;
+    margin-bottom: 26px;
+}
+
+.menu {
+    height: 26px;
+    width: 360px;
+    margin-top: 29px;
+    margin-right: 95px;
+}
+
+.menu a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.menu a:last-child {
+    margin: 0;
+}
+
+.guitarist-background {
+    width: 516px;
+    height: 530px;
+    margin: 72px 525px 50px 10px;
+    position: absolute;
+    z-index: auto;
+}
+
+.guitarist-background1 {
+    position: absolute;
+    width: 529.85px;
+    height: 125.07px;  
+    top: 100px;
+    background: #A385FA;
+    border-radius: 100px;
+    transform: matrix(0.5, -0.87, 0.86, 0.52, 0, 0);
+    z-index: auto;
+}
+
+.guitarist-background2 {
+    position: absolute;
+    width: 522.57px;
+    height: 126.81px;
+    left: 85px;
+    top: 170px;
+    background: #DDCACA;
+    border-radius: 100px;
+    transform: matrix(0.88, -0.48, 0.46, 0.89, 0, 0);
+}
+
+.guitarist-background3 {
+    position: absolute;
+    width: 525.87px;
+    height: 126.03px;
+    left: 50px;
+    top: 135px;
+    background: #F8A13C;
+    border-radius: 100px;
+    transform: matrix(0.73, -0.69, 0.67, 0.74, 0, 0);
+}
+
+.guitarist{
+    height: 538px;
+    width: 682px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.section-header__main__text {
+    height: 125px;
+    width: 360px;
+    margin-top: 113px;
+    margin-left: 690px;
+    position: absolute;
+    top: 40px;
+}
+
+.section-header__icon {
+    width: 195.76px;
+    height: 31.28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon__item {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px black solid;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header__icon img:last-child {
+    margin: 0;
+}
+
+.exclude {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 200px;
+    bottom: 0px;
+    background: linear-gradient(90deg, #A385FA 0%, #F8A13C 51.04%, #DDCACA 98.96%);
+    z-index: auto;
+    border-radius: 100%;
+}
+
+.ellipse1 {
+    position: absolute;
+    z-index: auto;
+    width: 77.88px;
+    height: 77.88px;
+    left: 20px;
+    top: 20px;
+    background: #F4F2F2;
+    border-radius: 100%;
+}
+
+.section-header__mainhead  {
+    position: relative;
+    z-index: auto;
+}
+
+.section-header__mainhead h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0;
+}
+
+hr {
+    width: 50px;
+    height: 2px;
+    margin: 0;
+    color: black;
+}
+
+.section-header__mainhead p {
+    width: 360px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section-header__buttons button{
+    width: 165px;
+    height: 50px;
+    color: white;
+    background: #F8A13C;
+    border-radius: 100px;
+    border: #F8A13C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.exclude-bottom {
+    position: absolute;
+    z-index: auto;
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    left: 280px;
+    top: 415px;
+    background: linear-gradient(90deg, #A385FA 0%, #F8A13C 51.04%, #DDCACA 98.96%);
+}
+
+.ellipse-bottom {
+    position: absolute;
+    z-index: auto;
+    border-radius: 100%;
+    width: 110.34px;
+    height: 110.34px;
+    left: 30px;
+    top: 30px;
+    background: #F4F2F2;
+}
+
+.teaching {
+    position: relative;
+    z-index: auto;
+    height: 600px;
+    background-color: white;
+}
+
+.teaching-header {
+    margin-left: 100px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+.teaching-header h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 50px;
+    margin: 0;
+}
+
+span {
+    border-bottom: 1px solid #000000
+}
+
+.circle-teaching1 {
+    position: relative;
+    top: 50px;
+}
+
+.exclude-teaching1 {
+    position: absolute;
+    z-index: auto;
+    border-radius: 100%;
+    width: 108.25px;
+    height: 107.36px;
+    left: 1000px;
+    bottom: 0;
+    background: linear-gradient(90deg, #A385FA 0%, #F8A13C 51.04%, #DDCACA 98.96%);
+}
+
+.ellipse-teaching1 {
+    position: absolute;
+    z-index: auto;
+    border-radius: 100%;
+    width: 70.26px;
+    height: 69.68px;
+    left: 20px;
+    top: 20px;
+    background: white;
+}
+
+.exclude-teaching2 {
+    position: absolute;
+    z-index: auto;
+    border-radius: 100%;
+    width: 130px;
+    height: 145.12px;
+    top: 300px;
+    background: linear-gradient(90deg, #A385FA 0%, #F8A13C 51.04%, #DDCACA 98.96%);
+}
+
+.ellipse-teaching2 {
+    position: absolute;
+    z-index: auto;
+    border-radius: 100%;
+    width: 84.38px;
+    height: 94.19px;
+    left: 23px;
+    top: 25px;
+    background: white;
+}
+
+.teaching-guitar {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: auto;
+    margin-bottom: 40px;
+}
+
+.teaching-guitar img {
+    height: 300px;
+    width: 265px;
+    margin-right: 15px;
+}
+
+.teaching-experience {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 125px;
+    height: 80px;
+    width: 890px;
+}
+
+.teaching-experience img{
+    height: 80px;
+    width: 75px;
+}
+
+.teaching-experience__years, .teaching-experience__hours, .teaching-experience__students, .teaching-experience__reviews {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.teaching-experience__years__text, .teaching-experience__hours__text, .teaching-experience__students__text, .teaching-experience__reviews__text {
+    padding-left: 20px;
+}
+
+.teaching-experience__years__text h3, .teaching-experience__hours__text h3, .teaching-experience__students__text h3, .teaching-experience__reviews__text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.teaching-experience__years__text p, .teaching-experience__hours__text p, .teaching-experience__students__text p, .teaching-experience__reviews__text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0px;
+}
+
+.education {
+    background: #F4F2F2;
+}
+
+.education__wrap {
+    height: 621px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    z-index: auto;
+}
+
+.education-head {
+    width: 570px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: auto;
+}
+
+.exclude-education2 {
+    position: absolute;
+    z-index: auto;
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    left: 90px;
+    top: 280px;
+    background: linear-gradient(90deg, #A385FA -2.35%, #F8A13C 48.69%, #DDCACA 96.61%);
+}
+
+.exclude-education1 {
+    position: relative;
+    z-index: auto;
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    left: 140px;
+    bottom: 75px;
+    background: linear-gradient(90deg, #A385FA 0%, #F8A13C 51.04%, #DDCACA 98.96%);
+}
+
+.ellipse-education1 {
+    position: absolute;
+    z-index: auto;
+    border-radius: 100%;
+    width: 110.34px;
+    height: 110.34px;
+    left: 30px;
+    top: 30px;
+    background: #F4F2F2;
+}
+
+.education-head h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 50px;
+    padding-left: 180px;
+    position: absolute;
+    z-index: auto;
+}
+
+.education-text {
+    width: 460px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education-text__preparing h2 {
+    margin-top: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+.education-text__main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    width: 457px;
+}
+
+.education__buttons {
+    height: 55px;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.education__buttons button{
+    width: 165px;
+    height: 50px;
+    color: white;
+    background: #F8A13C;
+    border-radius: 100px;
+    border: #F8A13C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer {
+    height: 193px;
+    position: relative;
+    z-index: auto;
+}
+
+.backgroundimage {
+    position: absolute;
+    z-index: auto;
+    width: 487px;
+    height: 313px;
+    bottom: 0px;
+    background: url(../image/Гриф\ 1.png);
+}
+
+.footer-sign h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 65px;
+    width: 456px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    margin-left: 600px;
+}
